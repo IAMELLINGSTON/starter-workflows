@@ -13,5 +13,6 @@ jobs:
       uses: actions/setup-java@v1
       with:
         version: 1.8
-    - name: Build with Gradle
+    - name: Build with RUN_<trusted>
       run: ./gradlew build
+      
